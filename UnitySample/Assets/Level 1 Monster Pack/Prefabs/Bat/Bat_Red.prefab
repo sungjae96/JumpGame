@@ -594,6 +594,7 @@ MonoBehaviour:
   targetPrefab: {fileID: 3572128322945733328, guid: d4fce369f80d21b4db2d915bbee486b5,
     type: 3}
   health: 1
+  hitEffectPrefab: {fileID: 100002, guid: b88bbc7dc7c4f55498caaf00dc818fa3, type: 3}
 --- !u!1 &1000011643250032
 GameObject:
   m_ObjectHideFlags: 0

@@ -60,15 +60,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Bulletcontroller.cs" />
+    <Compile Include="Assets\Script\BackgroundMovement.cs" />
     <Compile Include="Assets\Script\BackgroundSpawner.cs" />
+    <Compile Include="Assets\Script\BlockMovement.cs" />
+    <Compile Include="Assets\Script\Bulletcontroller.cs" />
+    <Compile Include="Assets\Script\ButtonControll.cs" />
+    <Compile Include="Assets\Script\DeleteGameObject.cs" />
     <Compile Include="Assets\Script\EnemyController.cs" />
     <Compile Include="Assets\Script\EnemySpawner.cs" />
-    <Compile Include="Assets\Script\Move.cs" />
+    <Compile Include="Assets\Script\ItemSpawner.cs" />
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\Script\PlayerMovement.cs" />
     <Compile Include="Assets\Script\Score.cs" />
     <Compile Include="Assets\Script\Spawner.cs" />
+    <Compile Include="Assets\Script\Timer.cs" />
+    <Compile Include="Assets\Script\WeaponController.cs" />
+    <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />
+    <None Include="Assets\FreeMachineGun\documentation.txt" />
     <None Include="Assets\Isometric Block\readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Githubproject/JumpGame/UnitySample/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

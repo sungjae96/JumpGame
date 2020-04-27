@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EnemyController : MonoBehaviour
 {
     public float Speed;
     public GameObject targetPrefab;
     public int health;
     Vector3 target;
+    public GameObject hitEffectPrefab = null;
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +35,8 @@ public class EnemyController : MonoBehaviour
             if (health <= 0)
             {
                 Destroy(gameObject);
-                GameObject.Find("Score").GetComponent<Score>().ScoreUP();
+                Instantiate(hitEffectPrefab, transform.position, transform.rotation);
+                GameObject.Find("Score").GetComponent<Score>().ScoreUP();                
             }
         }
     }

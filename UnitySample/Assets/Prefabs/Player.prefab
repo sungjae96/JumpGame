@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 3572128323020198095}
   - component: {fileID: 3572128323020198096}
   m_Layer: 0
-  m_Name: unito 1
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -542,7 +542,7 @@ Animation:
   m_GameObject: {fileID: 3572128322945733328}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: cb7b01ac1c48d584ca6a21164a0d7070, type: 3}
+  m_Animation: {fileID: 7400000, guid: 511d20c80690a3340b7b8b031dd43272, type: 3}
   m_Animations:
   - {fileID: 7400000, guid: cb7b01ac1c48d584ca6a21164a0d7070, type: 3}
   - {fileID: 7400000, guid: 511d20c80690a3340b7b8b031dd43272, type: 3}
@@ -602,6 +602,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpPower: 5
   jumpNum: 2
+  bulletprefab: {fileID: 0}
+  bulletpower: 0
 --- !u!1 &3572128322945733336
 GameObject:
   m_ObjectHideFlags: 0

@@ -20,6 +20,10 @@ public class Score : MonoBehaviour
     void Update()
     {
         scoreText.text = "Score : " + score;
+        if(score >= 2500)
+        {
+            SceneManager.LoadScene("Win");
+        }
 
     }
 
